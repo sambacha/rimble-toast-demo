@@ -2,7 +2,7 @@ import React from "react";
 import { Flex, Box, Text, Button, OutlineButton } from "rimble-ui";
 
 // Address of the deployed smart contract (from etherscan)
-const contractAddress = "0x0f69f0ac4b92bf0d101b5747eed3fa6b653a36f8";
+const contractAddress = "0x0016958b8998d09c0CC8F0C19F5C29Bfc286ea96";
 
 // Copied from remix ide
 const contractAbi = [

@@ -7,15 +7,15 @@ class Header extends React.Component {
       <Box bg="primary" p={3} justifyContent="center" flexDirection="column">
         <Flex justifyContent="flex-end">
           <Link
-            href="https://github.com/ConsenSys/rimble-app-demo"
+            href="https://t.me/freighttrust/"
             target="_blank"
           >
-            <Button>GitHub</Button>
+            <Button>Telegram</Button>
           </Link>
         </Flex>
 
         <Box width="400px" mx="auto">
-          <Heading.h2 color={"white"}>Rimble App Demo</Heading.h2>
+          <Heading.h2 color={"white"}>Staking and Node Management Portal</Heading.h2>
         </Box>
       </Box>
     );

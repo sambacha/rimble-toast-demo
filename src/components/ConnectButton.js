@@ -6,7 +6,7 @@ class ConnectButton extends React.Component {
     return (
       <Flex flexDirection="column" alignItems="center" px={3} py={5}>
         <Heading.h3 textAlign="center" pb={4}>
-          Connect with MetaMask to try out the demo
+          Connect with MetaMask and Join the Network!
         </Heading.h3>
 
         <MetaMaskButton
@@ -15,7 +15,7 @@ class ConnectButton extends React.Component {
           onClick={this.props.initAccount}
           disabled={this.props.account}
         >
-          Connect with MetaMask
+          Connect with web3 wallet
         </MetaMaskButton>
       </Flex>
     );

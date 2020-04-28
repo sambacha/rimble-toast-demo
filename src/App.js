@@ -26,9 +26,8 @@ class App extends Component {
         <Header />
         <Flex justifyContent="center" p={4}>
           <Text width="400px">
-            This is a starter React dApp that uses the Rimble UI component
-            library to call methods on a smart contract deployed to the Ethereum
-            Rinkeby testnet.
+            This is the Portal that you can use to manage your $EDI staking,
+            Transfer your $EDI to $xEDI or, learn more about the network!
           </Text>
         </Flex>
 
